@@ -1,14 +1,16 @@
-//
-//  main.cpp
-//  AskUserThreeNames
-//
-//  Created by Chatchapong Thuaypha on 9/15/24.
-//
-
 #include <iostream>
+using namespace std;
 
-int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+int main() {
+    
+    string name1, name2, name3;
+    cout << "Enter your name please: " << endl;
+    
+    getline(cin, name1);
+    getline(cin, name2);
+    getline(cin, name3);
+    
+    cout << "Hi " << name1 << "!"<< endl;
+    
     return 0;
 }
